@@ -1,0 +1,95 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a vibrant background gradient and a fun font for the whole page */
+body {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style the header section with a vibrant background, padding, and text color */
+header {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    padding: 20px;
+    color: #fff;
+}
+
+/* Style the navigation menu items */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Add a hover effect for navigation links */
+nav a:hover {
+    color: #f2e9e7;
+}
+
+/* Style the main content area with a container, padding, and background color */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fae7e9;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffc371;
+}
+
+/* Style paragraphs with line height and margin */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Style buttons with a vibrant background color and hover effect */
+button {
+    background: linear-gradient(135deg, #ffc371, #ff5f6d);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+}
+
+/* Style links within the content */
+a {
+    color: #ff8d7a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
